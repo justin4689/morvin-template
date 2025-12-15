@@ -4301,3 +4301,6 @@ div.dataTables_wrapper div.dataTables_filter input {
     right: -12px;
     bottom: 38px;
   }
+.mx-12 {
+  margin-right: 12px !important;
+}
