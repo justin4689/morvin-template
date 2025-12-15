@@ -4156,3 +4156,15 @@ div.dataTables_wrapper div.dataTables_filter input {
 h3 {
   margin: 0;
 }
+
+.mx-12 {
+  margin-right: 12px !important;
+}
+
+.pagination  {
+  padding-top: 12px;
+  gap: 4px;
+  --bs-pagination-font-size: 0.7rem; 
+}
+
+/*# sourceMappingURL=app.min.css.map */

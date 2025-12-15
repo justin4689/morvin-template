@@ -4164,11 +4164,11 @@ div.dataTables_wrapper div.dataTables_filter input {
 }
 
 /* Personnalisation forte des couleurs de la table #datatable (écrase Bootstrap/DataTables) */
-#datatable.table.table-striped > tbody > tr:nth-of-type(odd) > * {
-  background-color: #ffffff !important; /* 1ère, 3ème, 5ème, ... ligne */
+#datatable tbody tr.odd td,
+#datatable tbody tr.odd th {
+  background-color: white !important;
   color: #212529 !important;
 }
-
 #datatable.table.table-striped > tbody > tr:nth-of-type(even) > * {
   background-color: #F5F7FA !important; /* 2ème, 4ème, 6ème, ... ligne */
   color: #212529 !important;
