@@ -202,7 +202,25 @@
     }),
     window.sessionStorage &&
       ((a = sessionStorage.getItem("is_visited"))
-        ? (n(".right-bar input:checkbox").prop("checked", !1),
+        ? ("dark-mode-switch" === a
+            ? (n("#bootstrap-style").attr(
+                "href",
+                "assets/css/bootstrap-dark.min.css"
+              ),
+              n("#app-style").attr("href", "assets/css/app-dark.min.css"))
+            : "rtl-mode-switch" === a
+            ? (n("#bootstrap-style").attr(
+                "href",
+                "assets/css/bootstrap-rtl.min.css"
+              ),
+              n("#app-style").attr("href", "assets/css/app-rtl.min.css"),
+              n("html").attr("dir", "rtl"))
+            : (n("#bootstrap-style").attr(
+                "href",
+                "assets/css/bootstrap.min.css"
+              ),
+              n("#app-style").attr("href", "assets/css/app.min.css")),
+          n(".right-bar input:checkbox").prop("checked", !1),
           n("#" + a).prop("checked", !0),
           t(a))
         : sessionStorage.setItem("is_visited", "light-mode-switch")),
