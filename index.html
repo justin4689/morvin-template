@@ -56,7 +56,7 @@
               <i class="mdi mdi-menu"></i>
             </button>
 
-            <h3 className="text-bold text-md m-0">Gestion des factures</h3>
+            <h3 class="text-bold text-md m-0">Gestion des factures</h3>
           </div>
 
           <!-- Search input -->
@@ -233,7 +233,91 @@
                     <button class="btn btn-outline-white mx-12">Lister</button>
                   </a>
 
-                  <button class="btn btn-outline-white mx-12">Rechercher</button>
+                  <button class="btn btn-outline-white mx-12" data-bs-toggle="modal" data-bs-target=".staticBackdrop" >Rechercher</button>
+
+                  <div class="modal fade staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                  <form class="" action="#">
+
+                                          <div class="modal-header">
+                                          <h5 class="modal-title" id="staticBackdropLabel">Rechercher</h5>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          </div>
+                                          <div class="modal-body">
+                                          <div class="mb-3">
+                           
+                                                <input
+                                                  class="form-control"
+                                                  type="email"
+                                                  id="username"
+                                                  required=""
+                                                  placeholder="Rechercher..."
+                                                />
+                                          </div>
+
+                                          <div class="mb-3 d-flex gap-3">
+                                                <div class="form-check">
+                                                  <input
+                                                    type="checkbox"
+                                                    class="form-check-input"
+                                                    id="checkName"
+                                                  />
+                                                  <label
+                                                    class="form-check-label"
+                                                    for="checkName"
+                                                    >name
+                                                    </label
+                                                  >
+
+                                                </div>
+                                                <div class="form-check">
+                                                  <input
+                                                    type="checkbox"
+                                                    class="form-check-input"
+                                                    id="checkPosition"
+                                                  />
+                                                  <label
+                                                    class="form-check-label"
+                                                    for="checkPosition"
+                                                    >position
+                                                    </label
+                                                  >
+
+                                                </div>
+                                                <div class="form-check">
+                                                  <input
+                                                    type="checkbox"
+                                                    class="form-check-input"
+                                                    id="checkSalary"
+                                                  />
+                                                  <label
+                                                    class="form-check-label"
+                                                    for="checkSalary"
+                                                    >salary
+                                                    </label
+                                                  >
+
+                                                </div>
+                                          </div>
+
+                                          </div>
+                              
+
+
+                                          <div class="modal-footer">
+                                          
+                              <div class="mb-3 text-center">
+                                <button class="btn btn-outline" type="submit">
+                                  Rechercher
+                                </button>
+                              </div>
+
+                                          </div>
+                                  </form>
+                              </div>
+                          </div>
+                  </div>
                 </div>
               </div>
             </div>

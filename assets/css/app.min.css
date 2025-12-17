@@ -4186,4 +4186,28 @@ h3 {
   --bs-pagination-font-size: 0.7rem; 
 }
 
+
+.form-check-label {
+  color : #495057!important;
+}
+.btn-primary {
+  background-color: #0099FF !important;
+}
+
+.btn-primary:hover {
+}
+
+
+.btn-outline {
+  border-color: #0099FF !important;
+
+  color:    #0099FF !important;
+}
+
+
+.btn-outline:hover {
+  background-color: #0099FF !important;
+
+  color:    #ffffff !important;
+}
 /*# sourceMappingURL=app.min.css.map */
