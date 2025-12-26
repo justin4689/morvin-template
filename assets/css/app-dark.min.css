@@ -4152,7 +4152,6 @@ div.dataTables_wrapper div.dataTables_filter input {
   color: #fff;
 }
 
-
 h3 {
   margin: 0;
 }
@@ -4161,10 +4160,16 @@ h3 {
   margin-right: 12px !important;
 }
 
-.pagination  {
+.pagination {
   padding-top: 12px;
   gap: 4px;
-  --bs-pagination-font-size: 0.7rem; 
+  --bs-pagination-font-size: 0.7rem;
+}
+
+.tab-content.text-muted,
+.tab-content.text-muted .tab-pane,
+.tab-content.text-muted p {
+  color: #6c757d !important;
 }
 
 /*# sourceMappingURL=app.min.css.map */

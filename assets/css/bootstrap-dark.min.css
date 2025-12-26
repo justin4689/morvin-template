@@ -18,3 +18,42 @@
 .vertical-menu #sidebar-menu .sub-menu li a:hover {
   color: #0099ff;
 }
+
+
+.details-title {
+  padding: 0.4rem 0.5rem !important;
+  margin-bottom: 0;
+  margin-top: 0;
+font-size: 0.8rem;
+
+  color: #6c757d;
+}
+
+.details-value {
+  padding: 0.4rem 0.5rem !important;
+  vertical-align: middle;
+  font-size: 0.85rem;
+  line-height: 1.3;
+
+  color: #6c757d;
+}
+
+html[data-bs-theme="dark"] .details-title {
+  color: #6c757d;
+}
+.hr-dashed {
+  border-top: 2px dashed #dee2e6;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  color: #0099ff;
+  border-color: #0099ff #0099ff transparent;
+}
+
+
+.tab-content.text-muted,
+.tab-content.text-muted .tab-pane,
+.tab-content.text-muted p {
+  color: #6c757d !important;
+}
