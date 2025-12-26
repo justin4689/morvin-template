@@ -4164,50 +4164,53 @@ div.dataTables_wrapper div.dataTables_filter input {
 }
 
 /* Personnalisation forte des couleurs de la table #datatable (écrase Bootstrap/DataTables) */
-#datatable tbody tr.odd td,
-#datatable tbody tr.odd th {
-  background-color: white !important;
+
+table.table-bordered.dataTable th, table.table-bordered.dataTable td 
+/* Lignes paires (even) du même tableau */
+table.table-bordered.dataTable.table-striped
+  > tbody
+  > tr:nth-of-type(even)
+  > th,
+table.table-bordered.dataTable.table-striped
+  > tbody
+  > tr:nth-of-type(even)
+  > td {
+  background-color: #f5f7fa !important; /* 2ème, 4ème, 6ème, ... ligne */
   color: #212529 !important;
 }
-#datatable.table.table-striped > tbody > tr:nth-of-type(even) > * {
-  background-color: #F5F7FA !important; /* 2ème, 4ème, 6ème, ... ligne */
-  color: #212529 !important;
-}
+
 h3 {
-  margin: 0 ;
+  margin: 0;
 }
 .mx-12 {
   margin-right: 12px !important;
 }
 
-.pagination  {
+.pagination {
   padding-top: 12px;
   gap: 4px;
-  --bs-pagination-font-size: 0.7rem; 
+  --bs-pagination-font-size: 0.7rem;
 }
-
 
 .form-check-label {
-  color : #495057!important;
+  color: #495057 !important;
 }
 .btn-primary {
-  background-color: #0099FF !important;
+  background-color: #0099ff !important;
 }
 
 .btn-primary:hover {
 }
 
-
 .btn-outline {
-  border-color: #0099FF !important;
+  border-color: #0099ff !important;
 
-  color:    #0099FF !important;
+  color: #0099ff !important;
 }
 
-
 .btn-outline:hover {
-  background-color: #0099FF !important;
+  background-color: #0099ff !important;
 
-  color:    #ffffff !important;
+  color: #ffffff !important;
 }
 /*# sourceMappingURL=app.min.css.map */
