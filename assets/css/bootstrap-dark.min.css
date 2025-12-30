@@ -57,3 +57,7 @@ html[data-bs-theme="dark"] .details-title {
 .tab-content.text-muted p {
   color: #6c757d !important;
 }
+
+.bg-primary {
+  background-color: #0099ff !important;
+}

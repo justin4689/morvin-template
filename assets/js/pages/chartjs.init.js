@@ -10,13 +10,13 @@ var pieChart = new Chart(ispiechart, {
             backgroundColor: [
                 '#0db4d6',
                 '#eeb148',
-                '#525ce5',
+                '#0099ff',
                 '#343a40'
             ],
             borderColor: [
                 '#0db4d6',
                 '#eeb148',
-                '#525ce5',
+                '#0099ff',
                 '#343a40'
             ],
         }],
@@ -47,7 +47,7 @@ var lineChart = new Chart(isbarchart, {
         {
             label: 'Samsung',
             data: [74, 83, 102, 97, 86, 106, 93, 114, 94],
-            backgroundColor: '#525ce5'
+            backgroundColor: '#0099ff'
         },
         {
             label: 'Oppo',
@@ -102,12 +102,12 @@ var lineChart = new Chart(islinechart, {
                 label: 'Apple',
                 data: [120, 180, 140, 210, 160, 240, 180, 210],
                 borderColor: [
-                    '#525ce5'
+                    '#0099ff'
                 ],
                 borderWidth: 3,
                 fill: false,
                 pointBackgroundColor: "#ffffff",
-                pointBorderColor: "#525ce5"
+                pointBorderColor: "#0099ff"
             },
             {
                 label: 'Samsung',

@@ -4214,12 +4214,11 @@ h3 {
   color: #ffffff !important;
 }
 
-
 .details-title {
   padding: 0.4rem 0.5rem !important;
   margin-bottom: 0;
   margin-top: 0;
-font-size: 0.8rem;
+  font-size: 0.8rem;
 
   color: #313a46;
 }
@@ -4240,11 +4239,25 @@ html[data-bs-theme="dark"] .details-title {
   border-top: 2px dashed #dee2e6;
 }
 
-
 /*# sourceMappingURL=app.min.css.map */
 
 .nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus {
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link.active {
   color: #0099ff;
-  border-color: #0099ff #0099ff transparent;
+}
+
+.bg-primary {
+  background-color: #0099ff !important;
+}
+.badge-soft-primary {
+  color: #0099ff;
+  background-color: rgba(0, 153, 255, 0.18);
+}
+
+.badge-soft-primary[href]:hover,
+.badge-soft-primary[href]:focus {
+  color: #0099ff;
+  text-decoration: none;
+  background-color: rgba(0, 153, 255, 0.4);
 }
