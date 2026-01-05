@@ -154,7 +154,7 @@
           </div>
 
           <!--- Sidemenu -->
-        <div id="sidebar-menu">
+     <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
               <li class="menu-title">Menu de navigation</li>
@@ -350,242 +350,91 @@
           <!--  end page title -->
 
           <!-- start  data table -->
-        <div class="container-fluid">
-            <div class="page-content-wrapper">
-             <div class="page-content-wrapper mb-5 pb-3">
-            
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="card">
-                  <form class="needs-validation">
-                    <h4 class="ps-4 pt-3 header-title">
-                      Details utilisateurs
-                    </h4>
-                    <hr class="mb-0" />
-                    <div class="card-body">
-                            <div class="row gy-3 gx-3">
-                      <div class="col-lg-2">
-                        <div class="card my-0 shadow-none border">
-                          <div class="">
-                            <div class="row align-items-center">
-                              <div class="col">
-                                <h4
-                                  href="javascript:void(0);"
-                                  class="details-title"
-                                >
-                                  Name :
-                                </h4>
-                                <hr class="m-0 hr-dashed" />
-                                <p class="details-value my-0">Airi Satou</p>
-                              </div>
-                            </div>
-                            <!-- end row -->
-                          </div>
-                          <!-- end .p-2-->
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="card my-0 shadow-none border">
-                          <div class="">
-                            <div class="row align-items-center">
-                              <div class="col">
-                                <h4
-                                  href="javascript:void(0);"
-                                  class="details-title"
-                                >
-                                  Postion :
-                                </h4>
-                                <hr class="m-0 hr-dashed" />
-                                <p class="details-value my-0">Accountant</p>
-                              </div>
-                            </div>
-                            <!-- end row -->
-                          </div>
-                          <!-- end .p-2-->
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="card my-0 shadow-none border">
-                          <div class="">
-                            <div class="row align-items-center">
-                              <div class="col">
-                                <h4
-                                  href="javascript:void(0);"
-                                  class="details-title"
-                                >
-                                  Office :
-                                </h4>
-                                <hr class="m-0 hr-dashed" />
-                                <p class="details-value my-0">Tokyo</p>
-                              </div>
-                            </div>
-                            <!-- end row -->
-                          </div>
-                          <!-- end .p-2-->
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="card my-0 shadow-none border">
-                          <div class="">
-                            <div class="row align-items-center">
-                              <div class="col">
-                                <h4
-                                  href="javascript:void(0);"
-                                  class="details-title"
-                                >
-                                  Age :
-                                </h4>
-                                <hr class="m-0 hr-dashed" />
-                                <p class="details-value my-0">33</p>
-                              </div>
-                            </div>
-                            <!-- end row -->
-                          </div>
-                          <!-- end .p-2-->
-                        </div>
-                      </div>
-            
-                      <div class="col-lg-2">
-                        <div class="card my-0 shadow-none border">
-                          <div class="">
-                            <div class="row align-items-center">
-                              <div class="col">
-                                <h4
-                                  href="javascript:void(0);"
-                                  class="details-title"
-                                >
-                                  Start date :
-                                </h4>
-                                <hr class="m-0 hr-dashed" />
-                                <p class="details-value my-0">$320,800</p>
-                              </div>
-                            </div>
-                            <!-- end row -->
-                          </div>
-                          <!-- end .p-2-->
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="card my-0 shadow-none border">
-                          <div class="">
-                            <div class="row align-items-center">
-                              <div class="col">
-                                <h4
-                                  href="javascript:void(0);"
-                                  class="details-title"
-                                >
-                                  Salary :
-                                </h4>
-                                <hr class="m-0 hr-dashed" />
+            <div class="container-fluid">
 
-                                <p class="details-value my-0">$162,700</p>
-                              </div>
-                            </div>
-                            <!-- end row -->
-                          </div>
-                          <!-- end .p-2-->
+                    <div class="page-content-wrapper">
+
+
+                       
+ <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <h4 class="header-title">Bar Chart</h4>
+                                        <p class="card-title-desc">Example of bar chart chart js.</p>
+
+                                        <canvas id="barChart"></canvas>
+
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col -->
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <h4 class="header-title">Line Chart</h4>
+                                        <p class="card-title-desc">Example of line chart chart js.</p>
+
+                                        <canvas id="lineChart"></canvas>
+
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col -->
                         </div>
-                      </div>
-                    </div>
+                        <!-- end row-->
 
-                                                            
-                                          
-            
-                                           
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
 
-                
+                                        <h4 class="header-title">Pie chart</h4>
+                                        <p class="card-title-desc">Example of line pie chart js.</p>
+                                        <div style="height: 300px; ">
+                                            <canvas id="pie" class="mx-auto"> </canvas>
+                                        </div>
+
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col -->
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <h4 class="header-title">Donut chart</h4>
+                                        <p class="card-title-desc">Example of donut chart js.</p>
+                                        <div style="height: 300px; ">
+                                            <canvas id="doughnut" class="mx-auto"> </canvas>
+                                        </div>
+
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <h4 class="header-title">Radar chart</h4>
+                                        <p class="card-title-desc">Example of radar chart js.</p>
+                                        <div style="height: 300px; ">
+                                            <canvas id="radar" class="mx-auto"> </canvas>
+                                        </div>
+
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
 
                     </div>
-                    <hr />
-                    <div class="text-end pt-2 ">
-                         <!-- Nav tabs -->
-                         <ul class="nav nav-tabs ps-4" role="tablist">
-                                                <li class="nav-item">
-                                                    <a class="nav-link active" data-bs-toggle="tab" href="#home" role="tab">
-                                                        <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
-                                                        <span class="d-none d-sm-block">Home</span>    
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" data-bs-toggle="tab" href="#profile" role="tab">
-                                                        <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
-                                                        <span class="d-none d-sm-block">Profile</span>    
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" data-bs-toggle="tab" href="#messages" role="tab">
-                                                        <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
-                                                        <span class="d-none d-sm-block">Messages</span>    
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" data-bs-toggle="tab" href="#settings" role="tab">
-                                                        <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
-                                                        <span class="d-none d-sm-block">Settings</span>    
-                                                    </a>
-                                                </li>
-                        </ul>
-            
-                                            <!-- Tab panes -->
-                        <div class="tab-content p-3 text-muted">
-                                                <div class="tab-pane active" id="home" role="tabpanel">
-                                                    <p class="mb-0">
-                                                        Raw denim you probably haven't heard of them jean shorts Austin.
-                                                        Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache
-                                                        cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
-                                                        butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi,
-                                                        qui irure terry richardson ex squid. Aliquip placeat salvia cillum
-                                                        iphone. Seitan aliquip quis cardigan american apparel, butcher
-                                                        voluptate nisi qui.
-                                                    </p>
-                                                </div>
-                                                <div class="tab-pane" id="profile" role="tabpanel">
-                                                    <p class="mb-0">
-                                                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-                                                        single-origin coffee squid. Exercitation +1 labore velit, blog
-                                                        sartorial PBR leggings next level wes anderson artisan four loko
-                                                        farm-to-table craft beer twee. Qui photo booth letterpress,
-                                                        commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
-                                                        vinyl cillum PBR. Homo nostrud organic, assumenda labore
-                                                        aesthetic magna delectus.
-                                                    </p>
-                                                </div>
-                                                <div class="tab-pane" id="messages" role="tabpanel">
-                                                    <p class="mb-0">
-                                                        Etsy mixtape wayfarers, ethical wes anderson tofu before they
-                                                        sold out mcsweeney's organic lomo retro fanny pack lo-fi
-                                                        farm-to-table readymade. Messenger bag gentrify pitchfork
-                                                        tattooed craft beer, iphone skateboard locavore carles etsy
-                                                        salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
-                                                        Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh
-                                                        mi whatever gluten yr.
-                                                    </p>
-                                                </div>
-                                                <div class="tab-pane" id="settings" role="tabpanel">
-                                                    <p class="mb-0">
-                                                        Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
-                                                        art party before they sold out master cleanse gluten-free squid
-                                                        scenester freegan cosby sweater. Fanny pack portland seitan DIY,
-                                                        art party locavore wolf cliche high life echo park Austin. Cred
-                                                        vinyl keffiyeh DIY salvia PBR, banh mi before they sold out
-                                                        farm-to-table VHS.
-                                                    </p>
-                                                </div>
-                        </div>
-            
-                    
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
 
 
-        </div>
-
-              <!-- end row -->
-            </div>
-          </div>
+                </div> <!-- container-fluid -->
         </div>
 
         <footer class="footer">
@@ -646,4 +495,15 @@
     </head>
 
   <script src="assets/js/app.js"></script>
+
+   <!-- Chart JS -->
+    <script src="assets/libs/chart.js/chart.umd.js"></script>
+    <script src="assets/js/pages/chartjs.init.js"></script>
+    <!-- Plugins js-->
+    <script src="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
+
+    <script src="assets/js/pages/dashboard.init.js"></script>
+
+
 </html>
