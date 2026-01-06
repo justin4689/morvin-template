@@ -3203,6 +3203,7 @@ div.dataTables_wrapper div.dataTables_filter input {
   border-bottom: 16px solid #525ce5;
 }
 .jvectormap-label {
+  display: none;
   border: none;
   background: #eff2f7;
   color: #303d59;
