@@ -4273,5 +4273,5 @@ table.dataTable.table-bordered {
 }
 
 .table-bordered > :not(caption) > * > * {
-  border-width: 1px !important;
+  border: 1px #ced4da solid !important;
 }
