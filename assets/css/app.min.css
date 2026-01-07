@@ -413,7 +413,7 @@ body[data-layout="horizontal"] .footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 20px 0;
+  padding: 20px 0 21px 0;
 }
 .user-sidebar .user-img {
   position: relative;
@@ -4261,4 +4261,17 @@ html[data-bs-theme="dark"] .details-title {
   color: #0099ff;
   text-decoration: none;
   background-color: rgba(0, 153, 255, 0.4);
+}
+
+.table-bordered {
+  border-collapse: collapse !important;
+}
+
+table.dataTable.table-bordered {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+}
+
+.table-bordered > :not(caption) > * > * {
+  border-width: 1px !important;
 }
