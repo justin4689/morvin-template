@@ -447,7 +447,7 @@ body[data-layout=horizontal] .footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 20px 0 21px 0;
+  padding: 20px 0;
 }
 .user-sidebar .user-img {
   position: relative;
