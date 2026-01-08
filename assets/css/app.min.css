@@ -4177,7 +4177,6 @@ table.table-bordered.dataTable.table-striped
   > tr:nth-of-type(even)
   > td {
   background-color: #f5f7fa !important; /* 2ème, 4ème, 6ème, ... ligne */
-  color: #212529 !important;
 }
 
 h3 {
