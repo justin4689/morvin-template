@@ -24,7 +24,10 @@ $(document).ready(function () {
       responsive: false,
       scrollX: useScrollX,
       autoWidth: false,
-      columnDefs: [{ targets: -1, orderable: false, searchable: false }],
+      columnDefs: [{ targets: -1, searchable: false, orderData: [0]}],
+      createdRow: function (row) {
+        $(row).find("td").last().addClass("datatable-actions");
+      },
     });
   }
 

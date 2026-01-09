@@ -1437,13 +1437,19 @@ div.dataTables_wrapper table.dataTable tbody td.datatable-actions {
   display: table-cell !important;
   vertical-align: middle;
   white-space: nowrap !important;
-  text-align: center;
+  text-align: left;
+}
+
+div.dataTables_wrapper table.dataTable th:last-child,
+div.dataTables_wrapper table.dataTable tbody td.datatable-actions {
+  width: 75px !important;
+  min-width: 75px !important;
 }
 
 div.dataTables_wrapper table.dataTable tbody td.datatable-actions a {
   display: inline-flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   vertical-align: middle;
 }
 
